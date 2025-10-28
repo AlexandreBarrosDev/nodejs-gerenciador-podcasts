@@ -2,12 +2,15 @@
   "name": "nodejs-gerenciador-podcasts",
   "version": "1.0.0",
   "description": "Um app no estilo Netflix, que gerencia diferentes episódios de podcasts por \r categoria",
-  "main": "index.js",
+  "main": "server.ts",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx watch --env-file=.env src/server.ts",
+    "dist": "tsup src",
+    "start:dist": "npm run build && node --env-file=.env dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
   },
   "homepage": "https://github.com/AlexandreBarrosDev/nodejs-gerenciador-podcasts#readme",
   "devDependencies": {
+    "@types/node": "^24.9.1",
     "tsup": "^8.5.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
