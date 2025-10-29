@@ -1,0 +1,26 @@
+[  
+    {
+        "podcastName": "Hipsters",
+        "episode": "BLOCKCHAIN além do hype: smart contracts e fidelidade",
+        "videoID": "29nYxK_3uTM",
+        "categories": ["programação", "tecnologias"]
+    },
+    {
+        "podcastName": "Hipsters",
+        "episode": "Nunca mais vamos escrever como antes: LLMs e criatividade",
+        "videoID": "2PIdvwVib0c",
+        "categories": ["IA", "tecnologias"]
+    },
+    {
+        "podcastName": "Alura",
+        "episode": "A evolução do front-end: frameworks, ferramentas e tendências",
+        "videoID": "3Jq6x8v9K1o",
+        "categories": ["programação", "front-end"]
+    },
+    {
+        "podcastName": "Dev na Estrada",
+        "episode": "Carreira de desenvolvedor: dicas para crescer na área",
+        "videoID": "4Lm9y7pQ2Rs",
+        "categories": ["carreira", "desenvolvimento"]
+    }
+]
